@@ -1,4 +1,4 @@
-// TODO: https://tech-docs.corndel.com/js/operators-and-expressions.html
+// https://tech-docs.corndel.com/js/operators-and-expressions.html
 
 /**
  * Increase the value of num by 1.

@@ -1,6 +1,6 @@
-// TODO: https://tech-docs.corndel.com/js/variables.html
+// https://tech-docs.corndel.com/js/variables.html
 
-// TODO: Replace null with the string title of your favourite movie
+// Replace null with the string title of your favourite movie
 export const title = 'Parasite'
 
 /**
