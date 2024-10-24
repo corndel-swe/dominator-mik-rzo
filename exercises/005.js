@@ -1,4 +1,4 @@
-// TODO: https://tech-docs.corndel.com/js/comparison-operators.html
+// https://tech-docs.corndel.com/js/comparison-operators.html
 
 /**
  * Checks if a person can ride the rollercoaster.
@@ -12,8 +12,8 @@
  *   otherwise.
  */
 export function rollercoaster(age, height) {
-  // TODO: Replace null with the correct boolean expression
-  const canRide = null
+  // Replace null with the correct boolean expression
+  const canRide = age >= 12 && height > 150
 
   return canRide // Don't change this line
 }
