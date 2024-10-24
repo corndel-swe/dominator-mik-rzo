@@ -1,4 +1,4 @@
-// TODO: https://tech-docs.corndel.com/js/conditional-statements.html
+// https://tech-docs.corndel.com/js/conditional-statements.html
 
 /**
  * Calculates the tax band for a given income.
@@ -13,7 +13,14 @@
 export function taxBand(income) {
   let taxBand = null
 
-  // TODO: Use if statements to update taxBand with the correct string
+  // Use if statements to update taxBand with the correct string
+  if (income >= 50000) {
+    taxBand = 'high'
+  } else if (income < 20000) {
+    taxBand = 'low'
+  } else {
+    taxBand = 'medium'
+  }
 
   return taxBand
 }
