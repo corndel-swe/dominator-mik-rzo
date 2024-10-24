@@ -1,4 +1,4 @@
-// TODO: https://tech-docs.corndel.com/js/arrow-functions.html
+// https://tech-docs.corndel.com/js/arrow-functions.html
 
 /**
  * Play a game of rock-paper-scissors.
@@ -8,8 +8,21 @@
  * @returns {'player1' | 'player2' | 'tie'} The result of the game.
  */
 export const rockPaperScissors =
-  (/* TODO: accept `choice1` and `choice2` as parameters */) => {
-    // TODO: if player1 wins, return 'player1'
-    // TODO: if player2 wins, return 'player2'
-    // TODO: if tie, return 'tie'
+  (player1, player2) => {
+    // if player1 wins, return 'player1'
+    // if player2 wins, return 'player2'
+    // if tie, return 'tie'
+    if (player1 === player2) {
+      return 'tie';
+    }
+  
+    if (
+      (player1 === 'rock' && player2 === 'scissors') ||
+      (player1 === 'scissors' && player2 === 'paper') ||
+      (player1 === 'paper' && player2 === 'rock')
+    ) {
+      return 'player1';
+    }
+  
+    return 'player2';
   }

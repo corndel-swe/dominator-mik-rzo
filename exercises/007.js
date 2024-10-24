@@ -1,4 +1,4 @@
-// TODO: https://tech-docs.corndel.com/js/functions.html
+// https://tech-docs.corndel.com/js/functions.html
 
 /**
  * Calls the functions in the correct order to log the messages:
@@ -7,8 +7,9 @@
  * @returns {number} The product of the three returned values (i.e. multiply them)
  */
 export function main() {
-  // TODO: Call the functions in the correct order
-  // TODO: Return the product of the three returned values
+  // Call the functions in the correct order
+  // Return the product of the three returned values
+  return meFirst() * meMiddle() * meLast()
 }
 
 function meFirst() {
